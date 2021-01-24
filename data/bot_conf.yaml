@@ -24,7 +24,7 @@ SW_API: "zRkz35AG_89QoFx3nFwKtk9AqL5UHFTcuvI_1ceMgZVmnbcQl9qHTBrszA8Lkww2"
 
 DEBUG_MODE: True
 LOAD_MODULES: True
-LOAD: ['anime', 'antiflood', 'connection', 'direct_link', 'disabling', 'error', 'feds', 'filters', 'greetings', 'imports_exports', 'language', 'locks', 'misc', 'notes', 'owner_stuff', 'pins', 'pm_menu', 'promotes', 'purges', 'reports', 'restrictions', 'rules', 'stickers', 'users', 'warns']
-DONT_LOAD: []
+LOAD: ['antiflood', 'connection', 'direct_link', 'disabling', 'error', 'feds', 'filters', 'greetings', 'imports_exports', 'language', 'locks', 'misc', 'notes', 'owner_stuff', 'pins', 'pm_menu', 'promotes', 'purges', 'reports', 'restrictions', 'rules', 'stickers', 'users', 'warns']
+DONT_LOAD: ['android','anime']
 ALLOW_FORWARDS_COMMANDS: False
 ALLOW_COMMANDS_WITH_!: False
