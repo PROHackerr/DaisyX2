@@ -7,11 +7,11 @@ TOKEN: "1557333374:AAHElsFmrGwjAVm1urMBhg8MXA4zUKQIkMw"
 APP_ID: 2250399
 APP_HASH: "92f3051096a1da6bae0ebf2f06b011c8"
 
-MONGO_URI: daisyxtg.herokuapp.com
+MONGO_URI: localhost
 MONGO_PORT: 27017
 MONGO_DB: 'hitsuki'
 
-REDIS_URI: daisyxtg.herokuapp.com
+REDIS_URI: localhost
 REDIS_PORT: 6379
 REDIS_DB_FSM: 1
 
@@ -24,7 +24,5 @@ SW_API: "zRkz35AG_89QoFx3nFwKtk9AqL5UHFTcuvI_1ceMgZVmnbcQl9qHTBrszA8Lkww2"
 
 DEBUG_MODE: True
 LOAD_MODULES: True
-LOAD: ['antiflood', 'connection', 'direct_link', 'disabling', 'error', 'feds', 'filters', 'greetings', 'imports_exports', 'language', 'locks', 'misc', 'notes', 'owner_stuff', 'pins', 'pm_menu', 'promotes', 'purges', 'reports', 'restrictions', 'rules', 'stickers', 'users', 'warns']
-DONT_LOAD: ['android','anime']
 ALLOW_FORWARDS_COMMANDS: False
 ALLOW_COMMANDS_WITH_!: False
